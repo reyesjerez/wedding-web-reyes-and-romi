@@ -1,9 +1,14 @@
 import Hero from "./Hero";
+import { useEffect } from "react";
 
 function Hotels() {
   const claseHero = "hero__hotels";
   const title = "¿No sabes dónde alojarte?";
   const subtitle = "No te preocupes, nosotras te ayudamos";
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="container__hotels">
       <Hero claseHero={claseHero} title={title} subtitle={subtitle}></Hero>

@@ -11,7 +11,7 @@ function MainLanding() {
       <Hero claseHero={claseHero} title={title} subtitle={subtitle}></Hero>
       <section className="main">
         <p className="main__text">
-          <b>💖 ¡¡Como ya saben hay bodorrio!! 💖</b>
+          <b>💖 ¡¡Se acerca el bodorrio!! 💖</b>
         </p>
         <p className="main__text">
           Queremos celebrar el amor que compartimos entre nosotras y con

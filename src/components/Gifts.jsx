@@ -1,9 +1,14 @@
 import Hero from "./Hero";
+import { useEffect } from "react";
 
 function Gifts() {
   const claseHero = "hero__gifts";
   const title = "No queremos que te preocupes";
   const subtitle = "¡Así que el regalo no será un impedimento";
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="container__where">
       <Hero claseHero={claseHero} title={title} subtitle={subtitle}></Hero>

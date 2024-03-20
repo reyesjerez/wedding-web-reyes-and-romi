@@ -1,8 +1,13 @@
 import Hero from "./Hero";
+import { useEffect } from "react";
+
 function Where() {
   const claseHero = "hero__where";
   const title = "¡Te lo ponemos fácil!";
   const subtitle = "Aquí tienes todos los detalles para llegar a la hora";
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="container__where">
       <Hero claseHero={claseHero} title={title} subtitle={subtitle}></Hero>

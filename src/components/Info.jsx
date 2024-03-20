@@ -1,10 +1,14 @@
 import Hero from "./Hero";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 
 function Info() {
   const claseHero = "hero__info";
   const title = "Todas tus preguntas aquí";
   const subtitle = "Queremos que estés enterada de todo";
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="container__where">
       <Hero claseHero={claseHero} title={title} subtitle={subtitle}></Hero>
