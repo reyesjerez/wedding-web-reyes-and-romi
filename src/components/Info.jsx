@@ -1,11 +1,14 @@
 import Hero from "./Hero";
 import { Link } from "react-router-dom";
-import { useEffect } from "react";
+
 
 function Info() {
   const claseHero = "hero__info";
   const title = "Todas tus preguntas aquí";
   const subtitle = "Queremos que estés enterada de todo";
+
+
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -58,6 +61,22 @@ function Info() {
           <p className="main__text">
             <b className="yellow">
               {" "}
+              CÓMO LLEGAR DESDE MADRID <br />
+            </b>{" "}
+            Si vienes desde Madrid, hay varios autobuses a Arenas de San Pedro
+            cada día.
+            <br />
+            No suelen llenarse, pero para evitar sustos os recomendamos comprar
+            los billetes con antelación. <br />
+            Los podéis encontrar en la web de{" "}
+            <a className="link-to" href="samar.com">
+              Samar
+            </a>
+            .
+          </p>
+          <p className="main__text">
+            <b className="yellow">
+              {" "}
               QUÉ TENGO QUE LLEVAR <br />
             </b>{" "}
             Absolutamente nada, solamente <b>tu presencia.</b> <br />
@@ -74,6 +93,29 @@ function Info() {
               vegetariana y vegana
             </b>. <br />
             Te pedimos por favor que así siga siendo :)
+          </p>
+          <p className="main__text">
+            <b className="yellow">
+              {" "}
+              TEMPERATURAS <br />
+            </b>{" "}
+            Mayo en esta zona es de lo más impredecible, así que pidamos todos
+            por que no llueva.
+            <br />
+            De todas formas contamos con una máxima de 25-30º en el día y
+            alrededor de los 15º en la noche.{" "}
+            <b>Os recomendamos traer una rebequita.</b>
+          </p>
+          <p className="main__text">
+            <b className="yellow">
+              {" "}
+              VOY SOLO Y ME DA COSITA <br />
+            </b>{" "}
+            No te preocupes, muchxs de nuestrxs amigxs venís solxs, y estamos
+            convencidas de que <b>lo vais a pasar genial</b>.
+            <br />
+            De todas formas si necesitáis que os presentemos a alguien o no os
+            sentís cómodxs en algún momento, solo tenéis que decírnoslo.
           </p>
         </div>
       </section>

@@ -10,6 +10,7 @@ import Gifts from "./Gifts";
 import Info from "./Info";
 
 import Footer from "./Footer";
+import Confirm from "./Confirm";
 
 function App() {
   const [dataConfirm, setDataConfirm] = useState({
@@ -18,13 +19,16 @@ function App() {
     people: "",
   });
 
+  const [showModal, setShowModal] = useState(false);
+
   const handleConfirm = () => {};
 
   return (
     <div>
       <Header />
+      {showModal && <Confirm setShowModal={setShowModal} />}
       <Routes>
-        <Route path="/" element={<MainLanding />} />
+        <Route path="/" element={<MainLanding setShowModal={setShowModal} />} />
         <Route path="/alojamiento" element={<Hotels />} />
         <Route path="/como-llegar" element={<Where />} />
         <Route path="/regalos" element={<Gifts />} />

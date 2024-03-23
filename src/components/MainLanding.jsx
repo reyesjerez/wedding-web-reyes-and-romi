@@ -1,11 +1,13 @@
-import flores from "../images/flowers.png";
 import Hero from "./Hero";
 import { Link } from "react-router-dom";
 
-function MainLanding() {
+function MainLanding({ setShowModal }) {
   const claseHero = "hero__main";
-  const title = "10 de mayo de 2024";
+  const title = "18 de mayo de 2024";
   const subtitle = "Arenas de San Pedro";
+  const handleClick = (event) => {
+    setShowModal(true);
+  };
   return (
     <main>
       <Hero claseHero={claseHero} title={title} subtitle={subtitle}></Hero>
@@ -24,9 +26,9 @@ function MainLanding() {
         </p>
         <div className="main__confirm">
           <h4>Confirma tu asistencia aquí:</h4>
-          <a className="main__confirm__text" href="">
+          <p className="main__confirm__text" onClick={handleClick}>
             ¡YO VOY!
-          </a>
+          </p>
         </div>
         <h4 className="main__text">
           Si tienes un ratito, nos gustaría que leyeras esta información:
