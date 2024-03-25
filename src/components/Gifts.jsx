@@ -28,14 +28,14 @@ function Gifts() {
           podamos seguir trabajando como albañilas profesionales.
         </p>
         <p className="main__text">
-          Además sabemos que cada uno tiene unas posibilidades deferentes, por
-          lo que dejamos a tu elección el hecho de aportar o la cantidad si
+          Además sabemos que cada unx tiene unas posibilidades diferentes, por
+          lo que dejamos a tu elección el hecho de aportar o la cantidad, si
           decides hacerlo :)
         </p>
 
         <p className="main__text">
           <b className="yellow">
-            ¡¡Tu aportación nos apoyará mucho y podremos seguir avanzando!!
+            ¡¡Tu aportación nos ayudará mucho y podremos seguir avanzando!!
           </b>
         </p>
         <div className="main__confirm2">

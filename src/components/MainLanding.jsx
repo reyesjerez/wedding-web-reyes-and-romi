@@ -21,8 +21,13 @@ function MainLanding({ setShowModal, setShowContact }) {
         <p className="main__text">
           Queremos celebrar el amor que compartimos entre nosotras y con
           ustedes, por eso queremos invitarles el <b>18 de mayo</b> de este año
-          a la celebración que tendrá lugar en el <b>Jardín del Rio</b> en{" "}
-          <b>Arenas de San Pedro</b>, el pueblito en el que vivimos.
+          a la celebración que tendrá lugar en el{" "}
+          <b>
+            <a href="https://www.jardindelrio.es/" className="link-to">
+              Jardín del Rio
+            </a>
+          </b>{" "}
+          en <b>Arenas de San Pedro</b>, el pueblito en el que vivimos.
         </p>
         <p className="main__text">
           <b>Esperamos disfrutar de tu compañía.</b>

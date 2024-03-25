@@ -16,8 +16,8 @@ function Where() {
           <b className="yellow">¡¡Cómo llegar a nuestra boda!!</b>
         </p>
         <p className="main__text">
-          Tenemos una norma fundamental, no pueden llevar el coche al lugar de
-          celebración.
+          Tenemos una norma fundamental, <b>no pueden llevar el coche</b> al
+          lugar de la celebración.
         </p>
         <p className="main__text">
           <b className="yellow">¿Cómo es eso posible?</b>
@@ -30,9 +30,9 @@ function Where() {
         <div className="main__confirm2">
           <h4 className="main__confirm__title">Horarios del autobús</h4>
           <p className="main__text">
-            <b className="yellow">18:00hs:</b> Recogida en la plaza del Castillo
+            <b className="yellow">18:00hs:</b> Recogida en la Plaza del Castillo
             (Arenas). <br />
-            <b className="yellow">18:15hs:</b> Recogida en la fuente del puente
+            <b className="yellow">18:15hs:</b> Recogida en la Fuente del Puente
             (El Hornillo). <br />
             <b className="yellow">18:30hs:</b> Llegada a la finca. <br />
             <b className="yellow">1:00hs:</b> Salida de la Finca con parada en

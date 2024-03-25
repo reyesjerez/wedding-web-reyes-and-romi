@@ -5,7 +5,7 @@ import { useEffect } from "react";
 function Info() {
   const claseHero = "hero__info";
   const title = "Todas tus preguntas aquí";
-  const subtitle = "Queremos que estés enterada de todo";
+  const subtitle = "Queremos que estés enteradx de todo";
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -32,8 +32,8 @@ function Info() {
               HORARIO <br />
             </b>{" "}
             El bodorrio empezará a las 19:00hs, pero{" "}
-            <b>el autobús te recogerá a las 18:15 o 18:30</b> según vengas desde
-            Arenas o desde El Hornillo. Consulta los horarios en{" "}
+            <b>el autobús te recogerá a las 18:15hs o 18:30hs</b> según vengas
+            desde Arenas o desde El Hornillo. Consulta los horarios en{" "}
             <Link to="/como-llegar/" className="link-to">
               cómo llegar
             </Link>
@@ -64,10 +64,10 @@ function Info() {
             Si vienes desde Madrid, hay varios autobuses a Arenas de San Pedro
             cada día.
             <br />
-            No suelen llenarse, pero para evitar sustos os recomendamos comprar
-            los billetes con antelación. <br />
+            No suelen llenarse, pero para evitar sustos os recomendamos{" "}
+            <b>comprar los billetes con antelación</b>. <br />
             Los podéis encontrar en la web de{" "}
-            <a className="link-to" href="samar.com">
+            <a className="link-to" href="https://samar.es/" target="_blank">
               Samar
             </a>
             .
@@ -75,7 +75,7 @@ function Info() {
           <p className="main__text">
             <b className="yellow">
               {" "}
-              QUÉ TENGO QUE LLEVAR <br />
+              QUÉ TENGO QUE LLEVAR<br />
             </b>{" "}
             Absolutamente nada, solamente <b>tu presencia.</b> <br />
             Si tienes alguna necesidad especial o algo que puedas necesitar
@@ -97,12 +97,12 @@ function Info() {
               {" "}
               TEMPERATURAS <br />
             </b>{" "}
-            Mayo en esta zona es de lo más impredecible, así que pidamos todos
-            por que no llueva.
+            Mayo en esta zona es de lo más impredecible, así que pidamos todxs 
+            que no llueva.
             <br />
             De todas formas contamos con una máxima de 25-30º en el día y
             alrededor de los 15º en la noche.{" "}
-            <b>Os recomendamos traer una rebequita.</b>
+            <b>Os recomendamos traer una rebequita/chamarrita.</b>
           </p>
           <p className="main__text">
             <b className="yellow">

@@ -17,14 +17,14 @@ function Hotels() {
           <b className="yellow">¡¡Te damos algunas ideas!!</b>
         </p>
         <p className="main__text">
-          Algunos de ustedes se alojarán en nuestra casa o en casa de nuestros
-          familiares, pero por desgracia no tenemos sitio para todos...
+          Algunxs de ustedes se alojarán en nuestra casa o en casa de nuestros
+          familiares, pero por desgracia no tenemos sitio para todxs...
         </p>
         <p className="main__text">
           Aqui les dejamos algunas <b>opciones de hospedaje</b>, para que puedan
-          disfrutar más de este lindo dia. Todas las opciones se encuentran en
-          el <b>centro del pueblo</b>, estan pensadas para que tengas todo lo
-          necesario, sin romperse mucho la cabeza.
+          disfrutar más de este lindo día. Todas las opciones se encuentran en
+          el <b>centro del pueblo</b>, están pensadas para que tengas todo lo
+          necesario, sin romperte mucho la cabeza.
         </p>
         <div className="main__confirm2">
           <h4 className="main__confirm__title">Aquí tienes el listado</h4>
