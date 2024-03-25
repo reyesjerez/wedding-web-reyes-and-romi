@@ -1,12 +1,15 @@
 import Hero from "./Hero";
 import { Link } from "react-router-dom";
 
-function MainLanding({ setShowModal }) {
+function MainLanding({ setShowModal, setShowContact }) {
   const claseHero = "hero__main";
   const title = "18 de mayo de 2024";
   const subtitle = "Arenas de San Pedro";
-  const handleClick = (event) => {
+  const handleClickModal = (event) => {
     setShowModal(true);
+  };
+  const handleClickContact = (event) => {
+    setShowContact(true);
   };
   return (
     <main>
@@ -26,7 +29,7 @@ function MainLanding({ setShowModal }) {
         </p>
         <div className="main__confirm">
           <h4>Confirma tu asistencia aquí:</h4>
-          <p className="main__confirm__text" onClick={handleClick}>
+          <p className="main__confirm__text" onClick={handleClickModal}>
             ¡YO VOY!
           </p>
         </div>
@@ -55,9 +58,12 @@ function MainLanding({ setShowModal }) {
           >
             INFO EXTRA
           </Link>
-          <Link className="main__btn__info main__btn__info__5" to="/">
+          <div
+            className="main__btn__info main__btn__info__5"
+            onClick={handleClickContact}
+          >
             CONTACTO
-          </Link>
+          </div>
         </div>
 
         <p className="postdata">

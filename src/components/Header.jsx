@@ -8,9 +8,17 @@ function Header({ showMenu, setShowMenu }) {
       setShowMenu(true);
     }
   };
+  const handleClick = (event) => {
+    setShowMenu(false);
+  };
   return (
     <header className="header">
-      <Link to="/" className="header__title" text="REYES + ROMI">
+      <Link
+        to="/"
+        className="header__title"
+        text="REYES + ROMI"
+        onClick={handleClick}
+      >
         REYES + ROMI
       </Link>
       <i
