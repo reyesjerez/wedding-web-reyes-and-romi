@@ -13,19 +13,20 @@ import Footer from "./Footer";
 import Confirm from "./Confirm";
 
 function App() {
-  const [dataConfirm, setDataConfirm] = useState({
-    name: "",
-    phone: "",
-    people: "",
-  });
+  //pendiente
+
+  // const [dataConfirm, setDataConfirm] = useState({
+  //   name: "",
+  //   phone: "",
+  //   people: "",
+  // });
 
   const [showModal, setShowModal] = useState(false);
-
-  const handleConfirm = () => {};
+  const [showMenu, setShowMenu] = useState(false);
 
   return (
     <div>
-      <Header />
+      <Header showMenu={showMenu} setShowMenu={setShowMenu} />
       {showModal && <Confirm setShowModal={setShowModal} />}
       <Routes>
         <Route path="/" element={<MainLanding setShowModal={setShowModal} />} />

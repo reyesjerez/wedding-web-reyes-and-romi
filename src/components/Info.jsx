@@ -1,13 +1,11 @@
 import Hero from "./Hero";
 import { Link } from "react-router-dom";
-
+import { useEffect } from "react";
 
 function Info() {
   const claseHero = "hero__info";
   const title = "Todas tus preguntas aquí";
   const subtitle = "Queremos que estés enterada de todo";
-
-
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -109,7 +107,7 @@ function Info() {
           <p className="main__text">
             <b className="yellow">
               {" "}
-              VOY SOLO Y ME DA COSITA <br />
+              VOY SOLX Y ME DA COSITA <br />
             </b>{" "}
             No te preocupes, muchxs de nuestrxs amigxs venís solxs, y estamos
             convencidas de que <b>lo vais a pasar genial</b>.

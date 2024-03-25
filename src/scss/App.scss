@@ -10,7 +10,8 @@
 }
 
 .header{
-    background: linear-gradient(to  right, $blue_color, $yellow_color);    padding: 20px;
+    background: linear-gradient(to  right, $blue_color, $yellow_color);    
+    padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -21,21 +22,38 @@
         letter-spacing: 3px;
     font-weight: 400;
     font-size: 24px;
+
     }
     &__menu{
+        display: none;
+  
+    }
+    
+    &__responsive{
+        position: absolute;
+        right: 0px;
+     width: 100%;
+        top: 67px;
+        background-color: $blue_color;
         display: flex;
-        gap: 20px;
-        text-decoration: none;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 10px;
+        text-align: right;
+        padding: 10px;
         &__item{
+            padding: 5px;
             text-decoration: none;
+            color: white;
             font-weight: 600;
             font-family: $text_font;
             font-size: 16px;
             letter-spacing: 1px;
-        color: white;
+
         }
     }
 }
+
 .hero{
     &__main{
         background-image: url(../images/tititis.png);
@@ -224,7 +242,9 @@
         }
     }
 }
-
+.pepino{
+    color: white;
+}
 .modal {
     position: fixed;
     z-index: 4;
@@ -256,7 +276,7 @@
         bottom: 15vw;
         opacity: 1;
         border: 3px solid $yellow_color;
-        border-radius: 5%;
+        border-radius: 25px;
         &__title {
             padding-top: 30px;
         }
@@ -288,6 +308,9 @@
     color: $darkblue_color;
     font-weight: 600;
 }
+
+
+
 .postdata{
     font-size: 16px;
 }
@@ -301,4 +324,31 @@
     color: $darkyellow_color;
     text-align: center;
     font-size: 12px;
+}
+
+@media (min-width: 768px) {
+    
+  .responsive {
+    display: none;
+  }
+  .header{
+    &__responsive {
+        display: none;
+        &__item{
+            display: none;
+        }
+    }
+    &__menu{
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+    &__item{
+        text-decoration: none;
+        font-weight: 600;
+        font-family: $text_font;
+        font-size: 16px;
+        letter-spacing: 1px;
+    color: white;
+    }}}
+
 }
