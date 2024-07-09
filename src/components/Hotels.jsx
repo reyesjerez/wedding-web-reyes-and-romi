@@ -14,19 +14,19 @@ function Hotels() {
       <Hero claseHero={claseHero} title={title} subtitle={subtitle}></Hero>
       <section className="main">
         <p className="main__text">
-          <b className="yellow">¡¡Te damos algunas ideas!!</b>
+          <b className="yellow">¡¡Hemos pensado en todo!!</b>
         </p>
         <p className="main__text">
-          Algunxs de ustedes se alojarán en nuestra casa o en casa de nuestros
-          familiares, pero por desgracia no tenemos sitio para todxs...
+          Hemos querido celebrar nuestra boda en la Ciudad de México, de manera
+          que no sea necesario que reserven un alojamiento. Al estar cerca de la
+          ciudad, podrán volver a su casa a dormir.
         </p>
         <p className="main__text">
-          Aqui les dejamos algunas <b>opciones de hospedaje</b>, para que puedan
-          disfrutar más de este lindo día. Todas las opciones se encuentran en
-          el <b>centro del pueblo</b>, están pensadas para que tengas todo lo
-          necesario, sin romperte mucho la cabeza.
+          De todas formas, les contamos que el <b>AFTERPARTY</b> será en el
+          <b> Centro de la Ciudad</b>, por lo que si no cuentan con alojamiento
+          y necesitan reservar uno, les recomendamos que sea en esta zona.
         </p>
-        <div className="main__confirm2">
+        {/* <div className="main__confirm2">
           <h4 className="main__confirm__title">Aquí tienes el listado</h4>
           <ul className="main__list">
             <li className="main__confirm__text">
@@ -76,7 +76,7 @@ function Hotels() {
               </a>{" "}
             </li>
           </ul>
-        </div>
+        </div> */}
       </section>
     </div>
   );

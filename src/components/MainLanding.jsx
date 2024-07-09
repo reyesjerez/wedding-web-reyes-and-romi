@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 function MainLanding({ setShowModal, setShowContact }) {
   const claseHero = "hero__main";
-  const title = "18 de mayo de 2024";
-  const subtitle = "Arenas de San Pedro";
+  const title = "18 de octubre de 2024";
+  const subtitle = "Jardín Zacapa, Xochimilco";
   const handleClickModal = (event) => {
     setShowModal(true);
   };
@@ -16,22 +16,26 @@ function MainLanding({ setShowModal, setShowContact }) {
       <Hero claseHero={claseHero} title={title} subtitle={subtitle}></Hero>
       <section className="main">
         <p className="main__text">
-          <b>💖 ¡¡Se acerca el bodorrio!! 💖</b>
+          <b>💖 ¡¡El bodorrio salta el charco!! 💖</b>
         </p>
         <p className="main__text">
-          Queremos celebrar el amor que compartimos entre nosotras y con
-          ustedes, por eso queremos invitarles el <b>18 de mayo</b> de este año
-          a la celebración que tendrá lugar a las <b>19:00hs</b> en el{" "}
+          {/* Queremos celebrar el amor que compartimos entre nosotras y con
+          ustedes, por eso queremos invitarles el <b>18 de octubre</b> de este
+          año a la celebración que tendrá lugar a las <b>18:00hs</b> en el{" "} */}
+          Dicen las malas lenguas que ya hubo boda, sin embargo no hay
+          matrimonio que valga sin una buena fiesta mexicana. Por eso queremos
+          invitarles el <b>18 de octubre</b> a la celebración que tendrá lugar a
+          las <b>18:00hs</b> en el{" "}
           <b>
             <a
-              href="https://www.jardindelrio.es/"
+              href="https://maps.app.goo.gl/BWvkRwvcQZcQscEP9"
               className="link-to"
               target="_blank"
             >
-              Jardín del Rio
+              Jardín Zacapa
             </a>
           </b>{" "}
-          en <b>Arenas de San Pedro</b>, el pueblito en el que vivimos.
+          en <b>Xochimilco</b>, al sur de la Ciudad de México.
         </p>
         <p className="main__text">
           <b>Esperamos disfrutar de tu compañía.</b>
@@ -39,7 +43,7 @@ function MainLanding({ setShowModal, setShowContact }) {
         <div className="main__confirm">
           <h4>Confirma tu asistencia aquí:</h4>
           <p className="main__confirm__text" onClick={handleClickModal}>
-            ¡YO VOY!
+            ¡YO LE CAIGO!
           </p>
         </div>
         <h4 className="main__text">

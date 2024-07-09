@@ -22,10 +22,11 @@ function Gifts() {
         </p>
 
         <p className="main__text">
-          Como la mayoría de ustedes saben, estamos reformando nuestra casita, y
-          todavía necesitamos mucho material y muebles. Por ello, hemos optado
-          por que puedan hacer donaciones a nuestra cuenta común, para que
-          podamos seguir trabajando como albañilas profesionales.
+          Como la mayoría de ustedes saben, estamos reformando nuestra casita en
+          España, y todavía necesitamos mucho material y muebles. Por ello,
+          hemos optado por que puedan hacer donaciones a nuestra cuenta común,
+          para que podamos seguir trabajando como albañilas profesionales cuando
+          volvamos.
         </p>
         <p className="main__text">
           Además sabemos que cada unx tiene unas posibilidades diferentes, por
@@ -42,16 +43,11 @@ function Gifts() {
           <h4 className="main__confirm__title">Cómo aportar</h4>
           <p className="main__text">
             <b className="yellow">
-              BIZUM: <br />
-            </b>{" "}
-            Al contacto de Reyes: <b>664 297 287</b>. <br />
-            <br />
-            <b className="yellow">
               TRANSFERENCIA: <br />
             </b>{" "}
-            A nuestra cuenta común del Santander: <br />
-            Romina Cabrera Pérez <br />
-            <b>ES27 0049 5525 5127 1396 5734</b>
+            A nuestra cuenta común del BBVA: <br />
+            Liliana Romina Cabrera Pérez <br />
+            <b>CLABE: 0121 8001 5639 723363</b>
           </p>
         </div>
       </section>

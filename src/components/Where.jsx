@@ -16,29 +16,43 @@ function Where() {
           <b className="yellow">¡¡Cómo llegar a nuestra boda!!</b>
         </p>
         <p className="main__text">
-          Tenemos una norma fundamental, <b>no pueden llevar el coche</b> al
-          lugar de la celebración.
+          Tanto si vienes en Uber como si traes tu carro te esperamos{" "}
+          <b>
+            <a
+              href="https://maps.app.goo.gl/BWvkRwvcQZcQscEP9"
+              className="link-to"
+              target="_blank"
+            >
+              AQUÍ
+            </a>{" "}
+            .
+          </b>
+        </p>
+        <p>
+          En este lugar el staff de nuestra boda te recibirá y te indicará como
+          llegar al Jardín.
         </p>
         <p className="main__text">
-          <b className="yellow">¿Cómo es eso posible?</b>
+          <b className="yellow">Estacionamiento</b>
         </p>
         <p className="main__text">
-          Como no queremos que nadie se arriesgue yendo por las curvas de vuelta
-          a casa, tenemos un autobús que lo hará por ustedes.
+          Podrás estacionar tu carro en la dirección que indicamos arriba.
         </p>
 
         <div className="main__confirm2">
-          <h4 className="main__confirm__title">Horarios del autobús</h4>
+          <h4 className="main__confirm__title">Horarios</h4>
           <p className="main__text">
-            <b className="yellow">18:00hs:</b> Recogida en la Plaza del Castillo
-            (Arenas). <br />
-            <b className="yellow">18:15hs:</b> Recogida en la Fuente del Puente
-            (El Hornillo). <br />
-            <b className="yellow">18:30hs:</b> Llegada a la finca. <br />
-            <b className="yellow">1:00hs:</b> Salida de la Finca con parada en
-            El Hornillo y Arenas. <br />
-            <b className="yellow">4:00hs:</b> Salida de la Finca con parada en
-            El Hornillo y Arenas.
+            <b className="yellow">18:00-19:00hs</b> Llegada al Jardín Zacapa en
+            trajinera. <br />
+            <b className="yellow">A partir de las 19:00</b> Llegada al Jardín
+            caminando. <br />
+            <br />
+            <b className="yellow">02:00hs</b> Tenemos que dejar el Jardín
+            Zacapa. <br />
+            <b>
+              Así que seguiremos el afterparty en el Centro de la Ciudad.
+            </b>{" "}
+            <br />
             <br />
           </p>
         </div>
