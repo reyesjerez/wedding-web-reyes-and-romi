@@ -21,9 +21,13 @@ function MainLanding({ setShowModal, setShowContact }) {
         <p className="main__text">
           Queremos celebrar el amor que compartimos entre nosotras y con
           ustedes, por eso queremos invitarles el <b>18 de mayo</b> de este año
-          a la celebración que tendrá lugar en el{" "}
+          a la celebración que tendrá lugar a las <b>19:00hs</b> en el{" "}
           <b>
-            <a href="https://www.jardindelrio.es/" className="link-to">
+            <a
+              href="https://www.jardindelrio.es/"
+              className="link-to"
+              target="_blank"
+            >
               Jardín del Rio
             </a>
           </b>{" "}
